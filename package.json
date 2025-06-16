@@ -1,6 +1,7 @@
 {
   "name": "practica-5-desafio-3",
   "version": "0.1.0",
+  "homepage": "https://oscarrryeezus.github.io/practica-5-desafio-3",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
