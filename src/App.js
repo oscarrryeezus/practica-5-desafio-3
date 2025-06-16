@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Layout from './Layout';
-import { FaUserFriends, FaInfo } from 'react-icons/fa';
+import { FaInfo } from 'react-icons/fa';
 
 function Home() {
   
