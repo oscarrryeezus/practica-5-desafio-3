@@ -10,11 +10,11 @@ function Home() {
       <h1>Bienvenidos a la Página de Inicio</h1>
       <p style={{ fontSize: '18px', maxWidth: '600px', margin: '0 auto' }}>
         Oscar Daniel Morales Navarro
-        GIDS0593 - TEST 2
+        GIDS0593 - TEST 3
       </p>
       <img
         src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif"
-        alt="Bienvenida"
+        alt="Bienvenida toda la gente"
         style={{ width: '300px', marginTop: '20px' }}
       />
     </div>
