@@ -4,12 +4,13 @@ import Layout from './Layout';
 import { FaUserFriends, FaInfo } from 'react-icons/fa';
 
 function Home() {
+  
   return (
     <div style={{ textAlign: 'center' }}>
       <h1>Bienvenidos a la Página de Inicio</h1>
       <p style={{ fontSize: '18px', maxWidth: '600px', margin: '0 auto' }}>
         Oscar Daniel Morales Navarro
-        GIDS0593
+        GIDS0593 - TEST
       </p>
       <img
         src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif"
