@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Deploy React App to GitHub Pages
 
 on:
   push:
@@ -6,21 +6,18 @@ on:
       - master
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Build Docker image
-        run: docker build -f Dockerfile.prod -t webintegral .
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
 
-      - name: Extract build files
-        run: |
-          CONTAINER_ID=$(docker create webintegral)
-          docker cp $CONTAINER_ID:/usr/share/nginx/html ./build
-          docker rm $CONTAINER_ID
+      - run: npm install
+      - run: npm run build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
