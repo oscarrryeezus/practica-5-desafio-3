@@ -13,11 +13,7 @@ function Home() {
         GIDS0593 - TEST 3
         16 de Junio :l
       </p>
-      <img
-        src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif"
-        alt="Bienvenida toda la gente"
-        style={{ width: '300px', marginTop: '20px' }}
-      />
+    
     </div>
   );
 }
@@ -29,11 +25,7 @@ function About() {
       <p style={{ fontSize: '18px', maxWidth: '600px', margin: '0 auto' }}>
         
       </p>
-      <img
-        src="https://media.giphy.com/media/xUPGcguWZHRC2HyBRS/giphy.gif"
-        alt="Nosotros"
-        style={{ width: '280px', marginTop: '20px' }}
-      />
+      
     </div>
   );
 }

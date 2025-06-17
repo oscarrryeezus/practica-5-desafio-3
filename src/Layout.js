@@ -14,19 +14,11 @@ const Layout = () => {
                 justifyContent: 'space-between'
             }}>
                 <div style={{ display: 'flex', alignItems: 'center' }}>
-                    <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg"
-                        alt="Logo"
-                        style={{ height: '40px', marginRight: '10px' }}
-                    />
+                    
                     <h1 style={{ margin: 0, fontSize: '1.2rem' }}>Mi Sitio</h1>
                 </div>
 
-                <img
-                    src="https://i.redd.it/1cv2wgj1gb6c1.gif"
-                    alt="Decorativo"
-                    style={{ height: '40px' }}
-                />
+                
 
                 <nav>
                     <Link to="/" style={{ color: '#fff', textDecoration: 'none', marginRight: '15px' }}>
