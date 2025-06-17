@@ -11,6 +11,7 @@ function Home() {
       <p style={{ fontSize: '18px', maxWidth: '600px', margin: '0 auto' }}>
         Oscar Daniel Morales Navarro
         GIDS0593 - TEST 3
+        16 de Junio
       </p>
       <img
         src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif"
